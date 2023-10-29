@@ -1,0 +1,140 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Lorena Marchesin" description="About Lorena Marchesin Lorem Ipsum">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<section>
+				<h2 class="section-title">Intro</h2>
+				<div class="content">
+					<p>
+						Born and raised in Italy I moved to Toronto, Canada in 2016.<br/>
+						In 2023 I decided to move back to Europe and chose Amsterdam as the city I want to live in and I am now looking for new opportunities.<br/><br/>
+						I both have Italian and Canadian nationality.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content"><p>
+					<strong>Be A Part Of, A Fastr Company</strong><br/>
+Frontend Developer<br/>
+Toronto, Ontario, Canada<br/>
+Feb 2022 - Sep 2023<br/>
+<strong>Skills</strong>: Bootstrap (Framework) · SASS · HTML5 · JavaScript · BigCommerce · Node.js · GraphQL · HTML · Cascading Style Sheets (CSS)Skills: Bootstrap (Framework) · SASS · HTML5 · JavaScript · BigCommerce · Node.js · GraphQL · HTML · Cascading Style Sheets (CSS)
+<br/><br/>
+</p><p>
+
+<strong>Inorbital</strong><br/>
+Full-stack Developer<br/>
+Toronto, Canada<br/>
+Sep 2016 - Apr 2022 <br/>
+<strong>Skills</strong>: Bootstrap (Framework) · Databases · C++ · HTML5 · JavaScript · Kentico · SQL · ASP.NET · HTML · Cascading Style Sheets (CSS) · jQuerySkills: Bootstrap (Framework) · Databases · C++ · HTML5 · JavaScript · Kentico · SQL · ASP.NET · HTML · Cascading Style Sheets (CSS) · jQuery
+<br/><br/>
+</p><p>
+<strong>Engineering Ingegneria Informatica Spa</strong><br/>
+Junior Java Developer<br/>
+Venezia, Italia<br/>
+Jul 2014 - Jun 2016 <br/>
+<strong>Skills</strong>: HTML5 · HTML · Spring Framework · Cascading Style Sheets (CSS) · Jira · JavaSkills: HTML5 · HTML · Spring Framework · Cascading Style Sheets (CSS) · Jira · Java
+<br/><br/>
+<strong>Engineering Ingegneria Informatica Spa</strong><br/>
+Intern - Java DeveloperIntern - Java Developer<br/>
+Venezia, Italia<br/>
+Feb 2014 - Jul 2014 <br/>
+<strong>Skills</strong>: HTML5</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+<strong>Graphic Design for Beginners</strong><br/>
+University of Arts London <br/>
+London, UK<br/>
+Sept 2023
+<br/><br/>
+<strong>Object-Oriented Development Course</strong><br/>
+Course and Internship <br/>
+Padua, Italy<br/>
+2013
+
+				<br/><br/>
+					<strong>Università degli Studi di Udine</strong> <br/>
+Bachelor’s Degree, Tecnologie web e multimediali<br/>
+2009 - 2013<br/>
+Grade: 94/110<br/><br/>
+
+
+<strong>University of Leeds</strong> <br/>
+Erasmus exchange program, Information Technology<br/>
+2011 - 2012<br/>
+5/5 exams
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
