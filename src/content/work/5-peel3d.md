@@ -1,5 +1,5 @@
 ---
-title: Peel 3d
+title: BigCommerce - Peel 3d
 publishDate: 2022-04-01 00:00:00
 img: /assets/work/peel3d-home.png
 img_alt: peel 3D site homepage

@@ -1,5 +1,5 @@
 ---
-title: Nardwuar Timeline
+title: Angular - Nardwuar Timeline
 publishDate: 2022-04-01 00:00:00
 img: /assets/work/nardwuar_1.jpg
 img_alt: Nardwuar homepage
