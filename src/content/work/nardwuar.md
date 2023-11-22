@@ -1,12 +1,12 @@
 ---
-title: Nardwuar
+title: Nardwuar Timeline
 publishDate: 2022-04-01 00:00:00
 img: /assets/work/nardwuar_1.jpg
 img_alt: Nardwuar homepage
 img2: /assets/work/nardwuar_2.jpg
 img2_alt: Nardwuar timeline
 description: |
-  This is a personal project, just to practice and show my Angular skills
+  Utilizing Angular, I crafted a captivating timeline that chronicles Nardwuar's interviews over time
 tags:
   - Dev
   - Angular
