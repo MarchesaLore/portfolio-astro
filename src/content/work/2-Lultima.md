@@ -68,3 +68,11 @@ Become a part of the EmpowerHer initiative. Together, let's raise our voices, br
 
 Project Repository
 Explore the <a href="https://github.com/MarchesaLore/femminicidio-news/tree/main" target="_blank">Github repository</a> to delve into the project structure, source code, and implementation details.
+
+**UPDATE**
+
+New slider in the homepage (SLICK SLIDER)
+with the list of feminicides from this source: https://femminicidioitalia.info/lista/2023
+the slider info come from a json in assets folder.
+
+<img width="942" alt="image" src="https://github.com/MarchesaLore/femminicidio-news/assets/22336407/b3dab61f-bf89-4dad-91fc-3d7dcb9573f4">
