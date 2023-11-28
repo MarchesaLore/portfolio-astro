@@ -1,0 +1,103 @@
+---
+import Icon from './Icon.astro';
+---
+<div>
+	<header class="section-header stack gap-2 lg:gap-4 section-header-personal">
+		<h2>Personal Notes</h2>
+	</header>
+	<section class="box skills">
+		<div class="stack gap-2 lg:gap-4">
+			
+			<img
+				alt="Suspiria the cat and Suspriria the movie"
+				width="480"
+				height="620"
+				src="/assets/Suspiria.jpg"
+			/>
+			<h3>Suspiria</h3>
+			<p>Suspiria, also called Susy, is my first kitty. Her name comes from a Dario Argento movie. 
+				Highly recommended if, like me, you love horror movies but still want to sleep at night. 
+				It features beautiful magenta-red blood that looks fake and will not cause nightmares.
+	<br/>
+				There is also a remake made by Luca Guadagnino, but that one is genuinely scary, but amazing soundtrack made by Thom Yorke and incredible design details.</p>
+		</div>
+		<div class="stack gap-2 lg:gap-4">		
+			<img
+				alt="Zappa the cat and Frank Zappa the musician"
+				width="480"
+				height="620"
+				src="/assets/Zappa.jpg"
+			/>
+			<h3>Zappa</h3>
+			<p>
+				You might think I am a big Frank Zappa fan if I named my second child after him, but you would be wrong.<br/>
+				 Started as a joke, as I have never really been a fan of him, but I have always been a big music nerd. 
+				 The name stuck around for way too long, and it can't be changed now. 
+				 Yet, it matches well with the silly personality of the cat.
+			
+			</p>
+		</div>
+		<div class="stack gap-2 lg:gap-4">		
+			<img
+				alt="Logo collages"
+				width="480"
+				height="620"
+				src="/assets/personal-collages.jpg"
+			/>
+			<h3>Collages</h3>
+			<p>	For the past five years or so, I have spent quite a lot of spare time making analog collages and digital designs using Photoshop and Illustrator.<br/>
+				I have been selling them on <a href="https://www.redbubble.com/people/NumbLock/shop?asc=u" target="_blank">RedBubble</a> and curating an <a href="https://www.instagram.com/lorena.collages/?hl=en" target="_blank">instagram</a> page.<br/>
+				I am particularly proud of my <a href="https://www.instagram.com/p/CTmo5TYAjjP/?hl=en&img_index=3" target="_blank">Antonioni Trilogy</a>, each piece is from an Antonioni movies: La Notte, L'Eclisse and L'avventura.
+			
+			</p>
+		</div>
+	</section>
+
+</div>
+
+<style>
+	.section-header-personal {
+		margin-bottom: 50px;
+	}
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+	a{
+		color: #fff;
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
