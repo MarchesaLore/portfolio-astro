@@ -1,6 +1,6 @@
 ---
 title: BigCommerce - Ametek
-publishDate: 2022-04-01 00:00:00
+publishDate: 2023-04-01 00:00:00
 img: /assets/work/ametek-home.png
 img_alt: Ametek country store homepage
 img2: /assets/work/ametek-singlestore.png

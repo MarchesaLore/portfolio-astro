@@ -1,6 +1,6 @@
 ---
 title: Angular - L'Ultima
-publishDate: 2022-11-23 00:00:00
+publishDate: 2023-11-23 00:00:00
 img: /assets/work/ultima.png
 img_alt: Nardwuar homepage
 img2: 

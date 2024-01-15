@@ -1,6 +1,6 @@
 ---
 title: Graphic Design for Beginners
-publishDate: 2022-10-01 00:00:00
+publishDate: 2023-10-01 00:00:00
 img: /assets/work/design-important.jpg
 img_alt: assignment 3
 img2: 
