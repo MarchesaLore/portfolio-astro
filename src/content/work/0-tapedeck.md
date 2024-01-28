@@ -12,7 +12,7 @@ tags:
   - React
   - Front-end
 ---
-Live url: <a href="https://endearing-kitsune-f81089.netlify.app/">Tapedeck App</a>
+Live url: <a href="https://endearing-kitsune-f81089.netlify.app/" target="_blank">Tapedeck App</a>
 
 # Application Tapedeck app
 The Tapedeck application provides a user-friendly interface for exploring and filtering a collection of audio cassettes. 

@@ -13,7 +13,7 @@ tags:
   - Front-end
 ---
  
-<a href="https://lultima.netlify.app/">Live website link</a> (NEWS WORKS ONLY ON LOCALHOST)
+<a href="https://lultima.netlify.app/" target="_blank">Live website link</a> (NEWS WORKS ONLY ON LOCALHOST)
 
 
 
